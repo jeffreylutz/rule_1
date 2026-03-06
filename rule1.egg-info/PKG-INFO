@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: rule1
+Version: 0.1.0
+Summary: Rule #1 Investing – sticker price and margin-of-safety calculator
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: fetch
+Requires-Dist: yfinance>=0.2; extra == "fetch"
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: yfinance>=0.2; extra == "dev"
+
+# rule_1

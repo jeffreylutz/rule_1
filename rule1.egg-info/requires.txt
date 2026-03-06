@@ -1,0 +1,7 @@
+
+[dev]
+pytest>=7
+yfinance>=0.2
+
+[fetch]
+yfinance>=0.2

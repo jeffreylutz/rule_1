@@ -1,0 +1,2 @@
+[console_scripts]
+rule1 = rule1.cli:main

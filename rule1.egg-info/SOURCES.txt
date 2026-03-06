@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+rule1/__init__.py
+rule1/calculator.py
+rule1/cli.py
+rule1/data.py
+rule1.egg-info/PKG-INFO
+rule1.egg-info/SOURCES.txt
+rule1.egg-info/dependency_links.txt
+rule1.egg-info/entry_points.txt
+rule1.egg-info/requires.txt
+rule1.egg-info/top_level.txt
+tests/test_calculator.py

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rule1"
+version = "0.1.0"
+description = "Rule #1 Investing – sticker price and margin-of-safety calculator"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+fetch = ["yfinance>=0.2"]
+dev = ["pytest>=7", "yfinance>=0.2"]
+
+[project.scripts]
+rule1 = "rule1.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rule1*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
